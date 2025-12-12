@@ -1,0 +1,60 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native
+/android
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# Backend specific
+backend/uploads/*.mp4
+backend/uploads/*.avi
+backend/photo/
+backend/*.log
+backend/check_db.js
+backend/add_test_images.js
+
+# Model files (too large for GitHub)
+*.h5
+*.pkl
+*.pth
+
+# Database config (contains sensitive info)
+# Uncomment if you want to exclude database connection settings
+# backend/config.js
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python

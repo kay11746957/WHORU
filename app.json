@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "WHORU",
+    "slug": "whoru",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kay11746957.AwesomeProject"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.kay11746957.AwesomeProject"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "96c88cb2-c0aa-4131-8829-63b96163ba29"
+      }
+    },
+    "owner": "kay11746957",
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/96c88cb2-c0aa-4131-8829-63b96163ba29"
+    },
+    "plugins": [
+      "expo-video",
+      "expo-audio"
+    ]
+  }
+}
